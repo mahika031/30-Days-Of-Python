@@ -1,7 +1,7 @@
 # Introduction
 # Day 1 - 30DaysOfPython Challenge
 
-#01-Done Learnt about the data types and operations
+#01-Done
 
 print("Hello World!")   # print hello world
 
@@ -12,6 +12,7 @@ print(3 / 2)   # division(/)   #1.5
 print(3 ** 2)  # exponential(**)   #6
 print(3 % 2)   # modulus(%)   #1
 print(3 // 2)  # Floor division operator(//)   #1
+print()
 
 # Checking data types
 
