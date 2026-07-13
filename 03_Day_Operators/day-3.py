@@ -1,12 +1,14 @@
+#03-Done 
+
 # Arithmetic Operations in Python
 # Integers
 
 print('Addition: ', 1 + 2)
 print('Subtraction: ', 2 - 1)
 print('Multiplication: ', 2 * 3)
+
 # Division in python gives floating number
 print('Division: ', 4 / 2)
-print('Division: ', 6 / 2)
 print('Division: ', 7 / 2)
 # gives without the floating number or without the remaining
 print('Division without the remainder: ', 7 // 2)
