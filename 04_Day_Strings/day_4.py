@@ -6,31 +6,33 @@ print(len(letter))          # 1
 greeting = 'Hello, World!'  # String could be  a single or double quote,"Hello, World!"
 print(greeting)             # Hello, World!
 print(len(greeting))        # 13
-sentence = "I hope you are enjoying 30 days of python challenge"
+sentence = "Yes, I'm enjoying 30 days of python challenge"
 print(sentence)
+print()
 
 # Multiline String
-multiline_string = '''I am a teacher and enjoy teaching.
-I didn't find anything as rewarding as empowering people.
-That is why I created 30 days of python.'''
+multiline_string = '''I am a student.
+I'm currently on DAY 4 of this python learning challenge,
+and I'm learning a lot'''
 print(multiline_string)
 # Another way of doing the same thing
-multiline_string = """I am a teacher and enjoy teaching.
-I didn't find anything as rewarding as empowering people.
-That is why I created 30 days of python."""
+multiline_string = """I am a student.
+I'm currently on DAY 4 of this python learning challenge,
+and I'm learning a lot."""
 print(multiline_string)
+print()
 
 # String Concatenation
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Mahika'
+last_name = 'Singh'
 space = ' '
 full_name = first_name + space + last_name
-print(full_name)  # Asabeneh Yetayeh
+print(full_name)  # Mahika Singh
 # Checking length of a string using len() builtin function
-print(len(first_name))  # 8
-print(len(last_name))   # 7
+print(len(first_name))  # 6
+print(len(last_name))   # 5
 print(len(first_name) > len(last_name))  # True
-print(len(full_name))  # 15
+print(len(full_name))  # 12
 
 # Unpacking characters
 language = 'Python'
@@ -41,6 +43,7 @@ print(c)  # t
 print(d)  # h
 print(e)  # o
 print(f)  # n
+print()
 
 # Accessing characters in strings by index
 language = 'Python'
@@ -58,6 +61,7 @@ last_letter = language[-1]
 print(last_letter)  # n
 second_last = language[-2]
 print(second_last)  # o
+print()
 
 # Slicing
 
@@ -78,7 +82,7 @@ pto = language[0:6:2]
 print(pto)  # pto
 
 # Escape sequence
-print('I hope every one enjoying the python challenge.\nDo you ?')  # line break
+print('I hope every one enjoying the python challenge.\nDo you ?\t Yes I am')  # line break
 print('Days\tTopics\tExercises')
 print('Day 1\t3\t5')
 print('Day 2\t3\t5')
@@ -86,6 +90,7 @@ print('Day 3\t3\t5')
 print('Day 4\t3\t5')
 print('This is a back slash  symbol (\\)')  # To write a back slash
 print('In every programming language it starts with \"Hello, World!\"')
+print()
 
 # String Methods
 # capitalize(): Converts the first character the string to Capital Letter
@@ -119,10 +124,10 @@ print(challenge.find('y'))  # 5
 print(challenge.find('th'))  # 0
 
 # format()	formats string into nicer output
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
-job = 'teacher'
-country = 'Finland'
+first_name = 'Mahika'
+last_name = 'Singh'
+job = 'student'
+country = 'India'
 sentence = 'I am {} {}. I am a {}. I live in {}.'.format(
     first_name, last_name, job, country)
 print(sentence)  # I am Asabeneh Yetayeh. I am a teacher. I live in Finland.
@@ -248,3 +253,9 @@ challenge = 'thirty days of python'
 print(challenge.startswith('thirty'))  # True
 challenge = '30 days of python'
 print(challenge.startswith('thirty'))  # False
+
+
+#OUTPUT =>
+'''
+
+'''
